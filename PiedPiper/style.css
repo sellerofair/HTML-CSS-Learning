@@ -1,0 +1,188 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+@font-face {
+	font-family: "Roboto";
+	src: url("Font/Roboto-Regular.ttf");
+}
+
+body {
+    margin: 0px;
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    width: 100%;
+    background: #007765;
+    height: 84px;
+    position: fixed;
+    left: 0px;
+}
+
+.headcontent {
+    width: 1219px;
+    margin: auto;
+}
+
+.logo {
+    height: 45px;
+    padding: 0px 55px;
+    margin: 20px 0px 0px 0px;
+}
+
+.menu {
+    padding: 29px 55px 0px 55px;
+    float: right;
+}
+
+.menu a, .menu p {
+    margin: 0px;
+    padding: 0px 0px 0px 8px;
+    float: right;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.emptyhead {
+    height: 84px;
+}
+
+section {
+    margin: 0px;
+}
+
+article {
+    width: 1109px;
+    padding: 0px 55px;
+    margin: 0px auto;
+}
+
+p {
+    padding: 0px 0px 92px 0px;
+    margin: 0px;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+}
+
+h1 {
+    padding: 48px 0px 16px 0px;
+    margin: 0px;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+}
+
+.jumbotron {
+    height: 403px;
+    background-image: url("img/image1.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+.jumbotron p {
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    padding: 160px 0px 0px 0px;
+    color: #FFFFFF;
+}
+
+.hero {
+    height: 483px;
+    background-image: url("img/image2.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero p {
+    width: 900px;
+    margin: 0px auto;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 128px 0px 0px 0px;
+}
+
+.problem, .team {
+    background: #EEEEEE;
+}
+
+.ppclogo {
+    margin: 0px 48px 35px 0px;
+    float: left;
+}
+
+.cards {
+    padding: 0px 0px 79px 0px;
+    letter-spacing: -4px;
+}
+
+.card {
+    display: inline-block;
+    margin: 15px 0px 15px 29px;
+    width: 350px;
+    height: 283px;
+}
+
+.card-l {
+    display: inline-block;
+    margin: 15px 0px;
+    width: 350px;
+    height: 283px;
+}
+
+.cards img {
+    padding: 24px 91px 12px 91px;
+}
+
+p.name {
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: normal;
+    color: #007765;
+}
+
+p.rank {
+    margin: 0px;
+    padding: 0px;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+footer {
+    width: 100%;
+    margin: 0px;
+    background: #333333;
+    height: 176px;
+}
+
+footer p {
+    width: 540px;
+    margin: 0px auto;
+    padding: 64px 0px 0px 0px;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
