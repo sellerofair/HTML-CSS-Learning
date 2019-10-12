@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "Open Sans";
+    src:url("open-sans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src:url("open-sans/OpenSans-Bold.ttf");
+}
+
+h1 {
+    font-family: "OpenSans";
+    font-size: 28px;
+    line-height: 33px;
+    color: #414141;
+}
+
+p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #363636;
+}
+
+.icon_copy {
+    position: absolute;
+    left: 10.75%;
+    right: 83%;
+    top: 2%;
+    bottom: 87.29%;
+}
+
+.greeting {
+    position: absolute;
+    left: 10.75%;
+    right: 52.17%;
+    top: 35.43%;
+    bottom: 60.14%;
+}
+
+.description {
+    position: absolute;
+    left: 10.92%;
+    right: 52%;
+    top: 42.71%;
+    bottom: 43.43%;
+}
